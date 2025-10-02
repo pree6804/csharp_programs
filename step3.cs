@@ -7,7 +7,9 @@ namespace interviewc_
         public static void Main(string[] args)
         {
             Console.WriteLine("hi");
+            Console.WriteLine("Bye");
+
         }
-        
+
     }
 }
