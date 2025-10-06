@@ -1,5 +1,6 @@
 ﻿using System;
 // coffee menu based switch cases
+
 namespace interviewc_
 {
      class SwitchCase
@@ -17,6 +18,7 @@ namespace interviewc_
             Console.Write("Please enter your coffee size (Small, Medium, or Large): ");
             string option=Console.ReadLine().ToLower();
             string finalPrice = "";
+
             switch (option)
             {
                 case ("small"):
@@ -42,6 +44,7 @@ namespace interviewc_
                     goto Start;// go back to label start to stat again from beginning
 
             }
+            
                 
         }
 
